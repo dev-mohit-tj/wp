@@ -14,6 +14,6 @@ self.addEventListener('push', function(e) {
         ]
     }
     e.waitUntil(
-    self.registration.showNotification("pahchano mai kon hu", options)
+    self.registration.showNotification("bolo kon hu me bolo bolo kon hu me", options)
     );
 });
