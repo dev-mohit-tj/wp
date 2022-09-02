@@ -1,4 +1,4 @@
-self.addEventListener('push', ()=> {
+self.addEventListener('push', function(e) {
 
     var options = {
         body: 'this is notification generated for you',
