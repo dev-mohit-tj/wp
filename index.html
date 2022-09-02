@@ -27,7 +27,13 @@
             userVisibleOnly :true,
             applicationServerKey : 'BH3ByVb8m14fbu39YsdxHlSFJQVCmmzasnbd-UmEHD2EQqcjtH9hr7ngYjMlMtyjbLlF08Wm6qfKGaYYd8G-LX0',
         });
-        console.log(JSON.stringify(push));
+        console.log(JSON.stringify(para));
+        const para = document.createElement("p");
+        para.innerText = push;
+        document.body.appendChild(para);
+        const paratwo = document.createElement("p");
+        para.innerText = JSON.stringify(push);
+        document.body.appendChild(paratwo);
     }
 </script>
 </html>
